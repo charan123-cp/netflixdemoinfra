@@ -7,7 +7,7 @@ count = 5
 ami = "ami-0ddc798b3f1a5117e"
 instance_type = "t2.medium"
 key_name = "swikp"
-vpc_security_group_ids = ["sg-0d7e4f4821e1f7551"]
+vpc_security_group_ids = ["sg-079a7ff839f5178dd"]
 tags = {
 Name = var.instance_names[count.index]
 }
